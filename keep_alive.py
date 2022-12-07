@@ -1,11 +1,11 @@
 from flask import Flask
 from threading import Thread
 
-application = Flask("")
+app = Flask("")
 
 
 def run():
-    application.run(host="0.0.0.0", port=80)
+    app.run(host="0.0.0.0", port=8080)
 
 
 def keep_alive():
